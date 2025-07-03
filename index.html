@@ -5,7 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zinari | Elevate everyday</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Snipcart Styles + Script -->
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+  <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+  <div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY"></div>
 </head>
+
 <body>
   <header>
     <div class="logo"><img src="logo.png" alt="Zinari Logo" /></div>
@@ -20,16 +26,44 @@
 
   <section class="hero">
     <h1>Style Meets Tech</h1>
-    <p>Explore the latest in fashion and gadgets with Zinari.</p>
+    <p>Explore the latest in fashion, wellness, and gadgets with Zinari.</p>
     <a href="#" class="cta">Shop Now</a>
   </section>
 
   <section class="products">
-    <h2>New Arrivals</h2>
+    <h2>Featured Products</h2>
     <div class="product-grid">
-      <!-- Placeholder items -->
-      <div class="product"><img src="shirt.jpg" alt="T-shirt" /><p>Graphic Tee</p></div>
-      <div class="product"><img src="watch.jpg" alt="Smartwatch" /><p>Smartwatch</p></div>
+      <!-- Mini Projector -->
+      <div class="product">
+        <img src="projector.jpg" alt="Mini Projector" />
+        <h3>Mini Projector</h3>
+        <p>$59.99</p>
+        <button 
+          class="snipcart-add-item"
+          data-item-id="proj-001"
+          data-item-name="Mini Projector"
+          data-item-price="59.99"
+          data-item-url="/"
+          data-item-description="Compact projector for home cinema or travel.">
+          Add to Cart
+        </button>
+      </div>
+
+      <!-- Resistance Bands -->
+      <div class="product">
+        <img src="resistance.jpg" alt="Resistance Bands" />
+        <h3>Resistance Bands (Set of 5)</h3>
+        <p>$24.99</p>
+        <button 
+          class="snipcart-add-item"
+          data-item-id="fit-001"
+          data-item-name="Resistance Bands"
+          data-item-price="24.99"
+          data-item-url="/"
+          data-item-description="Versatile workout bands for strength training and flexibility.">
+          Add to Cart
+        </button>
+      </div>
     </div>
   </section>
 
