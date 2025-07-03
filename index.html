@@ -2,55 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zinari - Fashion & Gadgets</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zinari | Elevate everyday</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Zinari <span class="icon">🛍️</span></h1>
+    <div class="logo"><img src="logo.png" alt="Zinari Logo" /></div>
     <nav>
-      <a href="#products">Shop</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <section id="hero">
-    <h2>Elevate Your Style</h2>
-    <p>Trendy fashion and innovative gadgets, only at Zinari.</p>
-    <button>Explore Now</button>
+  <section class="hero">
+    <h1>Style Meets Tech</h1>
+    <p>Explore the latest in fashion and gadgets with Zinari.</p>
+    <a href="#" class="cta">Shop Now</a>
   </section>
 
-  <section id="products">
-    <h3>Featured Products</h3>
-    <div class="product-list">
-      <div class="product-card">
-        <img src="https://via.placeholder.com/150" alt="Smart Fitness Band" />
-        <p>Smart Fitness Band</p>
-        <p>$25.00</p>
-        <a href="https://www.paypal.me/zinaristores/25" target="_blank" class="btn">Buy Now with PayPal</a>
-        <a href="https://wa.me/260952551549?text=Hi%20Zinari!%20I'm%20interested%20in%20the%20Smart%20Fitness%20Band." target="_blank" class="btn whatsapp">Order via WhatsApp</a>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/150" alt="Unisex Hoodie" />
-        <p>Unisex Hoodie</p>
-        <p>$30.00</p>
-        <a href="https://www.paypal.me/zinaristores/30" target="_blank" class="btn">Buy Now with PayPal</a>
-        <a href="https://wa.me/260952551549?text=Hi%20Zinari!%20I'm%20interested%20in%20the%20Unisex%20Hoodie." target="_blank" class="btn whatsapp">Order via WhatsApp</a>
-      </div>
+  <section class="products">
+    <h2>New Arrivals</h2>
+    <div class="product-grid">
+      <!-- Placeholder items -->
+      <div class="product"><img src="shirt.jpg" alt="T-shirt" /><p>Graphic Tee</p></div>
+      <div class="product"><img src="watch.jpg" alt="Smartwatch" /><p>Smartwatch</p></div>
     </div>
   </section>
 
-  <footer id="contact">
-    <p><strong>Contact us:</strong></p>
-    <p>Email: <a href="mailto:zinaristores@gmail.com">zinaristores@gmail.com</a></p>
-    <p>WhatsApp: <a href="https://wa.me/260952551549" target="_blank">+260 952 551 549</a></p>
-    <p>
-      Follow us: 
-      <a href="https://instagram.com/zinari.store" target="_blank">📸 Instagram</a> | 
-      <a href="https://twitter.com/zinaristore" target="_blank">🐦 Twitter</a>
-    </p>
+  <footer>
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>Instagram: <a href="https://instagram.com/zinari.store">@zinari.store</a></p>
+      <p>Twitter: <a href="https://twitter.com/zinaristore">@zinaristore</a></p>
+      <p>Email: <a href="mailto:zinaristores@gmail.com">zinaristores@gmail.com</a></p>
+    </div>
+    <p class="copyright">© 2025 Zinari</p>
   </footer>
 
   <script src="script.js"></script>
