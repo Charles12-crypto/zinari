@@ -1,170 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Zinari | Elevate Everyday</title>
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Snipcart Styles + Script -->
-  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
-  <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
-  <div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY"></div>
-</head>
-
-<body>
-  <header>
-    <div class="logo"><img src="logo.png" alt="Zinari Logo" /></div>
-    <nav>
-      <ul>
-        <li><a href="#women">Women</a></li>
-        <li><a href="#men">Men</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h1>Elevate Everyday</h1>
-    <p>Discover thoughtfully curated products that fit your lifestyle—fashion, wellness, and tech essentials, all in one place.</p>
-    <a href="#women" class="cta">Shop Now</a>
-  </section>
-
-  <!-- Shop by Category -->
-  <section class="categories">
-    <h2>Shop by Category</h2>
-    <div class="category-grid">
-      <div class="category">
-        <a href="#women">
-          <img src="women-category.jpg" alt="Women’s Collection" />
-          <h3>Women’s Fashion</h3>
-        </a>
-      </div>
-      <div class="category">
-        <a href="#men">
-          <img src="men-category.jpg" alt="Men’s Collection" />
-          <h3>Men’s Wardrobe</h3>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Women’s Collection -->
-  <section id="women">
-    <h2>Women’s Collection</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="floral-dress-doba.jpg" alt="Floral Summer Dress" />
-        <h3>Floral Summer Dress</h3>
-        <p>$39.99</p>
-        <button class="snipcart-add-item"
-          data-item-id="dress-001"
-          data-item-name="Floral Summer Dress"
-          data-item-price="39.99"
-          data-item-url="/"
-          data-item-description="Breeze through warm days in comfort and style with this elegant floral dress.">
-          Add to Cart
-        </button>
-      </div>
-      <div class="product">
-        <img src="blue-top-spocket.jpg" alt="Everyday Casual Top" />
-        <h3>Everyday Casual Top</h3>
-        <p>$24.99</p>
-        <button class="snipcart-add-item"
-          data-item-id="top-001"
-          data-item-name="Everyday Casual Top"
-          data-item-price="24.99"
-          data-item-url="/"
-          data-item-description="A breathable, soft-knit top for errands, weekends, or unwinding in style.">
-          Add to Cart
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Men’s Collection -->
-  <section id="men">
-    <h2>Men’s Collection</h2>
-    <div class="product-grid">
-      <div class="product">
-        <img src="mens-classic-tee-printful.jpg" alt="Men’s Classic Tee" />
-        <h3>Men’s Classic Tee</h3>
-        <p>$18.99</p>
-        <button class="snipcart-add-item"
-          data-item-id="tee-001"
-          data-item-name="Men’s Classic Tee"
-          data-item-price="18.99"
-          data-item-url="/"
-          data-item-description="Soft, versatile, and made to move with you—your everyday essential.">
-          Add to Cart
-        </button>
-      </div>
-      <div class="product">
-        <img src="cotton-hoodie-eprolo.jpg" alt="Minimalist Hoodie" />
-        <h3>Minimalist Hoodie</h3>
-        <p>$34.99</p>
-        <button class="snipcart-add-item"
-          data-item-id="hoodie-001"
-          data-item-name="Minimalist Hoodie"
-          data-item-price="34.99"
-          data-item-url="/"
-          data-item-description="Sleek warmth without distractions—ideal for layering or lounging.">
-          Add to Cart
-        </button>
-      </div>
-      <div class="product">
-        <img src="fleece-sweatpants-tapstitch.jpg" alt="Everyday Sweatpants" />
-        <h3>Everyday Sweatpants</h3>
-        <p>$29.99</p>
-        <button class="snipcart-add-item"
-          data-item-id="pants-001"
-          data-item-name="Everyday Sweatpants"
-          data-item-price="29.99"
-          data-item-url="/"
-          data-item-description="Laid-back comfort meets clean-cut style—great for errands or downtime.">
-          Add to Cart
-        </button>
-      </div>
-      <div class="product">
-        <img src="golf-shirt-printify.jpg" alt="Performance Polo" />
-        <h3>Performance Polo</h3>
-        <p>$26.50</p>
-        <button class="snipcart-add-item"
-          data-item-id="golf-001"
-          data-item-name="Performance Polo"
-          data-item-price="26.50"
-          data-item-url="/"
-          data-item-description="Moisture-wicking comfort meets effortless polish—perfect on or off the course.">
-          Add to Cart
-        </button>
-      </div>
-      <div class="product">
-        <img src="sports-cap-printful.jpg" alt="Classic Sports Cap" />
-        <h3>Classic Sports Cap</h3>
-        <p>$14.99</p>
-        <button class="snipcart-add-item"
-          data-item-id="cap-001"
-          data-item-name="Classic Sports Cap"
-          data-item-price="14.99"
-          data-item-url="/"
-          data-item-description="Lightweight, adjustable, and always sharp—finish your fit with confidence.">
-          Add to Cart
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <footer id="contact">
-    <div class="contact">
-      <h3>Contact Us</h3>
-      <p>Instagram: <a href="https://instagram.com/zinari.store">@zinari.store</a></p>
-      <p>Twitter: <a href="https://twitter.com/zinaristore">@zinaristore</a></p>
-      <p>Email: <a href="mailto:zinaristores@gmail.com">zinaristores@gmail.com</a></p>
-    </div>
-    <p class="copyright">© 2025 Zinari</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+[
+  {
+    "id": "zinari001",
+    "name": "Floral Summer Dress",
+    "category": "Women's Fashion",
+    "price": 24.99,
+    "description": "Lightweight boho-style dress with floral print, perfect for summer outings.",
+    "image": "floral-summer-dress.jpg",
+    "tags": ["summer", "floral", "dress", "boho"]
+  },
+  {
+    "id": "zinari002",
+    "name": "Everyday Casual Top",
+    "category": "Women's Fashion",
+    "price": 14.99,
+    "description": "Soft cotton top for everyday wear, available in multiple colors.",
+    "image": "casual-top.jpg",
+    "tags": ["casual", "top", "everyday", "cotton"]
+  },
+  {
+    "id": "zinari003",
+    "name": "Men’s Classic Tee",
+    "category": "Men's Fashion",
+    "price": 12.99,
+    "description": "Classic crew neck t-shirt made from breathable cotton blend.",
+    "image": "mens-classic-tee.jpg",
+    "tags": ["men", "t-shirt", "classic", "cotton"]
+  },
+  {
+    "id": "zinari004",
+    "name": "Minimalist Hoodie",
+    "category": "Unisex Fashion",
+    "price": 29.99,
+    "description": "Clean-cut hoodie with minimalist design, ideal for layering.",
+    "image": "minimalist-hoodie.jpg",
+    "tags": ["hoodie", "minimalist", "unisex", "layering"]
+  },
+  {
+    "id": "zinari005",
+    "name": "Everyday Sweatpants",
+    "category": "Unisex Fashion",
+    "price": 19.99,
+    "description": "Comfortable sweatpants with elastic waistband and tapered fit.",
+    "image": "sweatpants.jpg",
+    "tags": ["sweatpants", "casual", "unisex", "loungewear"]
+  },
+  {
+    "id": "zinari006",
+    "name": "Performance Polo",
+    "category": "Men's Fashion",
+    "price": 22.99,
+    "description": "Moisture-wicking polo shirt designed for active comfort and style.",
+    "image": "performance-polo.jpg",
+    "tags": ["polo", "performance", "men", "activewear"]
+  },
+  {
+    "id": "zinari007",
+    "name": "Classic Sports Cap",
+    "category": "Accessories",
+    "price": 11.99,
+    "description": "Adjustable sports cap with breathable mesh and embroidered logo.",
+    "image": "sports-cap.jpg",
+    "tags": ["cap", "sports", "accessory", "unisex"]
+  }
+]
