@@ -1,2 +1,4 @@
-// Placeholder for future JavaScript features
-console.log("Zinari website loaded.");
+// Placeholder for future enhancements
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Zinari site loaded!");
+});
