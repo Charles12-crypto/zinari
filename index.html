@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Zinari | Elevate everyday</title>
+  <title>Zinari | Elevate Everyday</title>
   <link rel="stylesheet" href="style.css" />
 
   <!-- Snipcart Styles + Script -->
@@ -17,57 +17,145 @@
     <div class="logo"><img src="logo.png" alt="Zinari Logo" /></div>
     <nav>
       <ul>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#women">Women</a></li>
+        <li><a href="#men">Men</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>Style Meets Tech</h1>
-    <p>Explore the latest in fashion, wellness, and gadgets with Zinari.</p>
-    <a href="#" class="cta">Shop Now</a>
+    <h1>Elevate Everyday</h1>
+    <p>Discover thoughtfully curated products that fit your lifestyle—fashion, wellness, and tech essentials, all in one place.</p>
+    <a href="#women" class="cta">Shop Now</a>
   </section>
 
-  <section class="products">
-    <h2>Featured Products</h2>
+  <!-- Shop by Category -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <div class="category">
+        <a href="#women">
+          <img src="women-category.jpg" alt="Women’s Collection" />
+          <h3>Women’s Fashion</h3>
+        </a>
+      </div>
+      <div class="category">
+        <a href="#men">
+          <img src="men-category.jpg" alt="Men’s Collection" />
+          <h3>Men’s Wardrobe</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Women’s Collection -->
+  <section id="women">
+    <h2>Women’s Collection</h2>
     <div class="product-grid">
-      <!-- Mini Projector -->
       <div class="product">
-        <img src="projector.jpg" alt="Mini Projector" />
-        <h3>Mini Projector</h3>
-        <p>$59.99</p>
-        <button 
-          class="snipcart-add-item"
-          data-item-id="proj-001"
-          data-item-name="Mini Projector"
-          data-item-price="59.99"
+        <img src="floral-dress-doba.jpg" alt="Floral Summer Dress" />
+        <h3>Floral Summer Dress</h3>
+        <p>$39.99</p>
+        <button class="snipcart-add-item"
+          data-item-id="dress-001"
+          data-item-name="Floral Summer Dress"
+          data-item-price="39.99"
           data-item-url="/"
-          data-item-description="Compact projector for home cinema or travel.">
+          data-item-description="Breeze through warm days in comfort and style with this elegant floral dress.">
           Add to Cart
         </button>
       </div>
-
-      <!-- Resistance Bands -->
       <div class="product">
-        <img src="resistance.jpg" alt="Resistance Bands" />
-        <h3>Resistance Bands (Set of 5)</h3>
+        <img src="blue-top-spocket.jpg" alt="Everyday Casual Top" />
+        <h3>Everyday Casual Top</h3>
         <p>$24.99</p>
-        <button 
-          class="snipcart-add-item"
-          data-item-id="fit-001"
-          data-item-name="Resistance Bands"
+        <button class="snipcart-add-item"
+          data-item-id="top-001"
+          data-item-name="Everyday Casual Top"
           data-item-price="24.99"
           data-item-url="/"
-          data-item-description="Versatile workout bands for strength training and flexibility.">
+          data-item-description="A breathable, soft-knit top for errands, weekends, or unwinding in style.">
           Add to Cart
         </button>
       </div>
     </div>
   </section>
 
-  <footer>
+  <!-- Men’s Collection -->
+  <section id="men">
+    <h2>Men’s Collection</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="mens-classic-tee-printful.jpg" alt="Men’s Classic Tee" />
+        <h3>Men’s Classic Tee</h3>
+        <p>$18.99</p>
+        <button class="snipcart-add-item"
+          data-item-id="tee-001"
+          data-item-name="Men’s Classic Tee"
+          data-item-price="18.99"
+          data-item-url="/"
+          data-item-description="Soft, versatile, and made to move with you—your everyday essential.">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <img src="cotton-hoodie-eprolo.jpg" alt="Minimalist Hoodie" />
+        <h3>Minimalist Hoodie</h3>
+        <p>$34.99</p>
+        <button class="snipcart-add-item"
+          data-item-id="hoodie-001"
+          data-item-name="Minimalist Hoodie"
+          data-item-price="34.99"
+          data-item-url="/"
+          data-item-description="Sleek warmth without distractions—ideal for layering or lounging.">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <img src="fleece-sweatpants-tapstitch.jpg" alt="Everyday Sweatpants" />
+        <h3>Everyday Sweatpants</h3>
+        <p>$29.99</p>
+        <button class="snipcart-add-item"
+          data-item-id="pants-001"
+          data-item-name="Everyday Sweatpants"
+          data-item-price="29.99"
+          data-item-url="/"
+          data-item-description="Laid-back comfort meets clean-cut style—great for errands or downtime.">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <img src="golf-shirt-printify.jpg" alt="Performance Polo" />
+        <h3>Performance Polo</h3>
+        <p>$26.50</p>
+        <button class="snipcart-add-item"
+          data-item-id="golf-001"
+          data-item-name="Performance Polo"
+          data-item-price="26.50"
+          data-item-url="/"
+          data-item-description="Moisture-wicking comfort meets effortless polish—perfect on or off the course.">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <img src="sports-cap-printful.jpg" alt="Classic Sports Cap" />
+        <h3>Classic Sports Cap</h3>
+        <p>$14.99</p>
+        <button class="snipcart-add-item"
+          data-item-id="cap-001"
+          data-item-name="Classic Sports Cap"
+          data-item-price="14.99"
+          data-item-url="/"
+          data-item-description="Lightweight, adjustable, and always sharp—finish your fit with confidence.">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact">
     <div class="contact">
       <h3>Contact Us</h3>
       <p>Instagram: <a href="https://instagram.com/zinari.store">@zinari.store</a></p>
